@@ -27,10 +27,6 @@ The dataset includes:
 - Monthly bill amounts
 - Monthly repayment amounts
 
-> ⚠️ The dataset is publicly available.  
-> To keep the repository lightweight, the data file is not included here.  
-> Please download it directly from UCI and place it in the `data/` directory if you wish to run the code.
-
 ---
 
 ## 🎯 Problem Motivation
@@ -97,8 +93,7 @@ Key results:
 
 ### 🔹 Cross-Validation Performance
 **K vs F1-score plot**
-
-> 📌 *Insert figure here*  
+ 
 > `Figures/k_vs_f1.png`
 
 This plot shows how the F1-score varies with the number of neighbours, motivating the selection of **K = 9**.
@@ -107,8 +102,7 @@ This plot shows how the F1-score varies with the number of neighbours, motivatin
 
 ### 🔹 ROC Curve
 **ROC curve for the final cost-sensitive KNN model**
-
-> 📌 *Insert figure here*  
+ 
 > `Figures/roc_curve.png`
 
 The ROC curve demonstrates the model’s ability to distinguish between defaulted and non-defaulted clients across decision thresholds.
